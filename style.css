@@ -21,7 +21,7 @@
 body{
 
         min-height: 100vh;
-        background-color: darkgray;
+        background-color: rgb(255, 255, 255);
         font-family: var(--fonte1);
 
     }
@@ -53,6 +53,19 @@ header a:hover{
 
 
     
+}
+
+
+a{
+
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+a#rede{
+
+    color: aqua;
 }
 
 
@@ -100,9 +113,31 @@ section.imagem > p {
     
 }
 
-section.imagem {
+section#img01{
     
-    background-position: right center;
+
+background-image: url("imagens/background001.jpg");
+
+
+}
+    
+section#img02{
+
+
+    background-image: url("imagens/rome.jpeg");
+}
+
+footer{
+
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+   
+
 
 
 
